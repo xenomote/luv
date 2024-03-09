@@ -7,11 +7,9 @@ A command line tool for validating links in free-form text
 `luv` performs the following steps in order:
 
 1. Resolve a list of **targets** to files
-2. Select the appropriate **extractor** per file
+2. Select and apply the appropriate **extractor** per file
 3. Parse extracted free-form text for **links**
-4. Select the appropriate **validation** to apply per link
-5. Validate links and collate **results**
-6. Report results
+4. Select and apply the appropriate **validation** per link
 
 ## Concepts
 
